@@ -1,0 +1,54 @@
+@import "mixins"
+
+square_size = 75px
+
+*
+	border 0
+	margin 0
+	padding 0
+
+.board
+	height square_size*8
+	margin square_size auto
+	width square_size*8
+
+.square
+	float left
+	height square_size
+	width square_size
+
+	&.even
+		background #000
+
+.piece
+	&:before
+		display block
+		font-size 50px
+		text-align center
+		width square_size
+
+	&.white:before
+		color white
+		text-shadow 0 0 10px black
+
+	&.black:before
+		color black
+		text-shadow 0 0 10px white
+
+.king:before
+	content "♚"
+
+.queen:before
+	content "♛"
+
+.bishop:before
+	content "♝"
+
+.knight:before
+	content "♞"
+
+.rook:before
+	content "♜"
+
+.pawn:before
+	content "♟"

@@ -1,0 +1,19 @@
+{
+  "name": "people-chess",
+  "version": "0.0.0",
+  "description": "",
+  "main": "chess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eighttrackmind/people-chess.git"
+  },
+  "author": "Boris Cherny <boris@performancejs.com> (http://performancejs.com/)",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/eighttrackmind/people-chess/issues"
+  },
+  "homepage": "https://github.com/eighttrackmind/people-chess"
+}
